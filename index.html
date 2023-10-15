@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="./src/images/code.png" type="image/x-icon">
+    <title>Vagas Programação</title>
+</head>
+
+<body>
+    <header>
+        <div class="inner-content">
+            <h1>MR ROBOT EMPREGOS</h1>
+        </div>
+    </header>
+    <main>
+        <form action="" method="get">
+            <label for="name">Nome:</label>
+            <input type="text" placeholder="Seu Nome Aqui" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="seuemail@legal.com" required>
+            <label for="cell">Telefone:</label>
+            <input type="tel" name="telefone" id="cell" placeholder="(99) 4002-8922" required>
+            <label for="cargo">Cargo desejado:</label>
+            <select name="cargos" id="cargo">
+                <option value="front">Front-end</option>
+                <option value="back">Back-end</option>
+                <option value="full">Full-stack</option>
+                <option value="se">Software Engineer</option>
+                <option value="ui">UI|UX Design</option>
+            </select>
+            <label for="pais">Pais onde deseja morar:</label>
+            <select id="pais">
+                <option value="usa">United States</option>
+                <option value="cn">Canada</option>
+                <option value="pt">Portugal</option>
+                <option value="pl">Polonia</option>
+                <option value="ch">Suiça</option>
+                <option value="lu">Luxemburgo</option>
+                <option value="nl">Netherlands</option>
+                <option value="uy">Uruguai</option>
+                <option value="ir">Irlanda</option>
+                <option value="jp">Japão</option>
+                <option value="fi">Finlandia</option>
+            </select>
+            <span>envie seu curriculo:</span>
+            <input type="file" name="curriculo" id="curriculum" accept=".pdf">
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Envie uma mensagem"></textarea>
+            <div class="botoes">
+                <input id="botao" type="reset" value="Limpar">
+                <input id="botao-enviar" type="submit" value="Enviar" onclick="">
+            </div>
+
+        </form>
+        <div class="right-item"><img src="./src/images/welick.jpg">
+            <h2>Cyber Security Engineer</h2>
+            <p> <b>Tyrell Welick</b>, com sua determinação e habilidades excepcionais, conquistou uma posição cobiçada com a
+                 <u>MR ROBOT EMPREGOS</u>. Sua paixão pela tecnologia e sua dedicação incansável ao
+                aprimoramento profissional impressionaram os recrutadores, e sua entrevista brilhante confirmou o seu
+                lugar na equipe. Com <u>MR ROBOT EMPREGOS</u>, Tyrell encontrou o ambiente perfeito para canalizar sua
+                criatividade e liderança, e sua jornada é um testemunho de que a perseverança e o talento podem abrir
+                portas surpreendentes.</p>
+        </div>
+    </main>
+    <footer>
+        <p>created by <a href="https://github.com/Mikael3250" target="_blank">Mikael3770</a></p>
+    </footer>
+    <script src="./src/js/index.js">
+
+    </script>
+</body>
+
+</html>
